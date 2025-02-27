@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body, #root {
     height: 100%;
     margin: 0;
@@ -79,4 +80,87 @@ h2 {
 
 #top-P{
     margin-top: 20px;
+=======
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding-top: 20px; /* Add top padding */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; 
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 10px;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /* Center the input and button inside the Form component */
+  #container input,
+  #container button {
+    display: block;       
+    text-align: center;
+  }
+  
+#the-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    width: fit-content; 
+    margin: auto;
+    padding: 10px; /* Add padding instead of large margin */
+}
+
+
+#the-weather img {
+    height: auto;
+    border-radius: 5px;
+}
+
+#the-weather p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#top-P{
+    margin-top: 20px;
+>>>>>>> 8975eae (initial commit)
 }
