@@ -1,3 +1,3 @@
 # Weather App
 
-![./screenShot.png]
+![./ScreenShot.png]
